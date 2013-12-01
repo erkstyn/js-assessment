@@ -16,6 +16,11 @@ define(function() {
 
     multiply: function(a, b) {
 
+        a *= 10000;
+        b *= 10000;
+
+        return (a * b) / 100000000;
+
     }
   };
 });
